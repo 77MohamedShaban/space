@@ -45,32 +45,23 @@ lib/
 
 ### Installation
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/space-explorer.git
-    cd space-explorer
-    ```
+## Getting Started
 
-2.  **Install dependencies:**
-    ```bash
-    flutter pub get
-    ```
+This project is a starting point for a Flutter application.
 
-3.  **Generate Native Splash Screen:**
-    ```bash
-    dart run flutter_native_splash:create
-    ```
+A few resources to get you started if this is your first Flutter project:
 
-4.  **Run the app:**
-    ```bash
-    flutter run
-    ```
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 ## 📸 Screenshots
 
-| Login Screen | Home Screen | Planet Details |
-| :---: | :---: | :---: |
-| ![Login](https://via.placeholder.com/200x400?text=Login+Screen) | ![Home](https://via.placeholder.com/200x400?text=Home+Screen) | ![Details](https://via.placeholder.com/200x400?text=Details+Screen) |
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/07ca17de-ffd1-4ee8-83c5-b7187a65ae4d" height="300"/>
+  <img src="https://github.com/user-attachments/assets/d6ebc0ad-ec89-435d-b838-d0c7930cb623" height="300"/>
+  <img src="https://github.com/user-attachments/assets/dbdb75e3-0143-4b3e-9787-e1e4b07d11f2" height="300"/>
+  <img src="https://github.com/user-attachments/assets/27290e28-2553-488d-b119-9346e6b6eea2" height="300"/>
+</p>
 
 ## ⚙️ Configuration
 
@@ -87,4 +78,4 @@ Contributions are welcome! If you find any issues or want to add new features, f
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Mohamed Shaban]
