@@ -1,24 +1,26 @@
 import 'package:flutter/material.dart';
-import 'package:space/ui/home/screen/home_screen.dart';
-import 'package:space/ui/login/screen/login_screen.dart';
-import 'package:space/ui/planet_details/screen/planet_details_screen.dart';
+import 'package:space_app/screens/home_screen.dart';
+import 'package:space_app/screens/login_screen.dart';
+import 'package:space_app/screens/planet_details_screen.dart';
 
 void main() {
-  runApp( MyApp());
+  runApp(const SpaceApp());
 }
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+
+class SpaceApp extends StatelessWidget {
+  const SpaceApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "space",
+      title: 'Space App',
       debugShowCheckedModeBanner: false,
-      routes: {LoginScreen.routeName: (context) => LoginScreen()
-        ,HomeScreen.routeName: (context) => HomeScreen(),
-        PlanetDetailsScreen.routeName:(context)=>PlanetDetailsScreen()
-      },
       initialRoute: LoginScreen.routeName,
+      routes: {
+        LoginScreen.routeName: (_) => const LoginScreen(),
+        HomeScreen.routeName: (_) => const HomeScreen(),
+        PlanetDetailsScreen.routeName: (_) => const PlanetDetailsScreen(),
+      },
     );
   }
 }
