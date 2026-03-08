@@ -58,9 +58,9 @@ A few resources to get you started if this is your first Flutter project:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/07ca17de-ffd1-4ee8-83c5-b7187a65ae4d" height="300"/>
-  <img src="https://github.com/user-attachments/assets/d6ebc0ad-ec89-435d-b838-d0c7930cb623" height="300"/>
-  <img src="https://github.com/user-attachments/assets/dbdb75e3-0143-4b3e-9787-e1e4b07d11f2" height="300"/>
-  <img src="https://github.com/user-attachments/assets/27290e28-2553-488d-b119-9346e6b6eea2" height="300"/>
+  <img src="https://github.com/user-attachments/assets/f9b5e71a-db50-41f8-aece-22d75b427c07" height="300" />
+  <img src="https://github.com/user-attachments/assets/a0ca7bb7-16db-4b96-a08c-90bef14799c3" height="300"/>
+  <img src="https://github.com/user-attachments/assets/826d4272-f88b-4aeb-89b5-bbc9306a0c12" height="300" />
 </p>
 
 ## ⚙️ Configuration
