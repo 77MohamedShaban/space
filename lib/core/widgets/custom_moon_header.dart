@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:space_app/core/utils/app_assets.dart';
-import 'package:space_app/core/utils/app_colors.dart';
-import 'package:space_app/core/utils/app_text_styles.dart';
+import '../utils/app_assets.dart';
+import '../utils/app_colors.dart';
+import '../utils/app_text_styles.dart';
 
 class CustomMoonHeader extends StatelessWidget {
   final String title;
@@ -56,17 +56,20 @@ class CustomMoonHeader extends StatelessWidget {
         Visibility(
           visible: isDetailsScreen,
           child: SafeArea(
-            child: IconButton(
-              onPressed: () {
-                Navigator.pop(context);
-              },
-              style: IconButton.styleFrom(
-                backgroundColor: AppColors.red,
-                foregroundColor: AppColors.white,
-                shape: const CircleBorder(),
-                iconSize: 28,
+            child: Padding(
+              padding: EdgeInsets.symmetric(horizontal: 16),
+              child: IconButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                style: IconButton.styleFrom(
+                  backgroundColor: AppColors.red,
+                  foregroundColor: AppColors.white,
+                  shape: const CircleBorder(),
+                  iconSize: 28,
+                ),
+                icon: const Icon(Icons.arrow_back),
               ),
-              icon: const Icon(Icons.arrow_back),
             ),
           ),
         ),

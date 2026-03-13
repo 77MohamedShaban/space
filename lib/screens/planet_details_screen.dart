@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:model_viewer_plus/model_viewer_plus.dart';
-import 'package:space_app/core/models/planet_model.dart';
-import 'package:space_app/core/utils/app_colors.dart';
-import 'package:space_app/core/utils/app_text_styles.dart';
-import 'package:space_app/core/widgets/custom_moon_header.dart';
+import '../core/models/planet_model.dart';
+import '../core/utils/app_colors.dart';
+import '../core/utils/app_text_styles.dart';
+import '../core/widgets/custom_moon_header.dart';
 
 class PlanetDetailsScreen extends StatefulWidget {
   static const String routeName = '/planet-details';

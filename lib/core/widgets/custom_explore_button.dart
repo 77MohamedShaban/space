@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:space_app/core/utils/app_colors.dart';
-import 'package:space_app/core/utils/app_text_styles.dart';
+import '../utils/app_colors.dart';
+import '../utils/app_text_styles.dart';
 
 class CustomExploreButton extends StatelessWidget {
   final String text;

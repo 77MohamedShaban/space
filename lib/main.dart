@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:space_app/screens/home_screen.dart';
-import 'package:space_app/screens/login_screen.dart';
-import 'package:space_app/screens/planet_details_screen.dart';
+import 'package:space/screens/home_screen.dart';
+import 'package:space/screens/login_screen.dart';
+import 'package:space/screens/planet_details_screen.dart';
 
 void main() {
   runApp(const SpaceApp());
@@ -13,7 +13,7 @@ class SpaceApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Space App',
+      title: 'Space',
       debugShowCheckedModeBanner: false,
       initialRoute: LoginScreen.routeName,
       routes: {

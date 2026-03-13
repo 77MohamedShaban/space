@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:space_app/core/utils/app_assets.dart';
-import 'package:space_app/core/utils/app_colors.dart';
-import 'package:space_app/core/utils/app_text_styles.dart';
-import 'package:space_app/core/widgets/custom_explore_button.dart';
-import 'package:space_app/screens/home_screen.dart';
+import '../core/utils/app_assets.dart';
+import '../core/utils/app_colors.dart';
+import '../core/utils/app_text_styles.dart';
+import '../core/widgets/custom_explore_button.dart';
+import 'home_screen.dart';
 
 class LoginScreen extends StatelessWidget {
   static const String routeName = '/login-screen';

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:space_app/core/models/planet_model.dart';
-import 'package:space_app/core/utils/app_colors.dart';
-import 'package:space_app/core/utils/app_text_styles.dart';
-import 'package:space_app/core/widgets/custom_explore_button.dart';
-import 'package:space_app/core/widgets/custom_moon_header.dart';
-import 'package:space_app/screens/planet_details_screen.dart';
+import 'package:space/screens/planet_details_screen.dart';
+import '../core/models/planet_model.dart';
+import '../core/utils/app_colors.dart';
+import '../core/utils/app_text_styles.dart';
+import '../core/widgets/custom_explore_button.dart';
+import '../core/widgets/custom_moon_header.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String routeName = '/home-screen';
